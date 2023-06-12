@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "94514389545",
+    "project_id": "vocadiary",
+    "storage_bucket": "vocadiary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94514389545:android:add42ffe5154419d10b238",
+        "android_client_info": {
+          "package_name": "com.example.android.vocadiaryk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94514389545-qhrpn8q3t2lg9n0tlch7l9urcrho5o1u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.vocadiaryk",
+            "certificate_hash": "f4947e7a4acb79817733b0130d9274bdba995544"
+          }
+        },
+        {
+          "client_id": "94514389545-akjb0e22h128i8p28iif7k50cu1c15jf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6BndCPB-hIPhkx_BWxLYRwr25h08LPk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94514389545-akjb0e22h128i8p28iif7k50cu1c15jf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
