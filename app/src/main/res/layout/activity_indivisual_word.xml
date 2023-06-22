@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".indivisualWord"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/app_background">
 
 
     <androidx.cardview.widget.CardView
@@ -49,7 +50,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/voice_card_flash"
                     android:src="@drawable/sound_icon"
-                    android:backgroundTint="@color/background_secondary"
+                    android:backgroundTint="@color/yellowDark"
 
                     />
 

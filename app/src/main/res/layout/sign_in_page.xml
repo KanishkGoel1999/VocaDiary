@@ -4,17 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/app_background"
     tools:context=".signInPage">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SignIN"
+        android:text="SignIn"
         android:id="@+id/signIn"
-        android:textColor="@color/background_secondary"
+        android:textColor="@color/purpleDark"
         android:textSize="35dp"
         android:textStyle="bold"
+        android:paddingRight="200dp"
         android:layout_margin="50dp"
         android:gravity="center"
         />
@@ -28,8 +29,8 @@
         android:drawableLeft="@drawable/user"
         android:drawablePadding="20dp"
         android:hint="Phone Number"
-        android:textColorHint="@color/background_secondary"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/yellowDark"
+        android:textColor="@color/purpleLight"
         android:layout_margin="10dp"
         android:padding="20dp"
         />
@@ -42,8 +43,8 @@
         android:drawableLeft="@drawable/pass"
         android:drawablePadding="20dp"
         android:hint="Enter OTP"
-        android:textColorHint="@color/background_secondary"
-        android:textColor="@color/secondary_text"
+        android:textColorHint="@color/yellowDark"
+        android:textColor="@color/purpleLight"
         android:layout_margin="10dp"
         android:padding="20dp"
         />
@@ -57,6 +58,8 @@
         android:layout_margin="10dp"
         android:padding="20dp"
         android:visibility="visible"
+        android:textColor="@color/purpleDark"
+        android:textSize="20dp"
         />
 
     <Button
@@ -69,6 +72,8 @@
         android:background="@color/background_secondary"
         android:padding="20dp"
         android:visibility="gone"
+        android:textColor="@color/purpleDark"
+        android:textSize="20dp"
         />
 
 
@@ -118,21 +123,25 @@
         android:background="@color/background_secondary"
         android:padding="20dp"
         android:text="@string/verifyOtp"
-        android:visibility="gone"/>
+        android:visibility="gone"
+        android:textColor="@color/purpleDark"
+        android:textSize="20dp"
+        />
 
     <TextView
         android:id="@+id/signInWithEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/verifyOtp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="30dp"
         android:textSize="25dp"
+        android:paddingLeft="35dp"
         android:layout_marginLeft="10dp"
         android:paddingTop="30dp"
-        android:paddingBottom="20dp"
+        android:paddingBottom="30dp"
         android:layout_marginBottom="30dp"
         android:text="Sign in with email-passsword"
-        android:textColor="@color/background_secondary"
+        android:textColor="@color/purpleDark"
         />
 
     <TextView
@@ -142,8 +151,9 @@
         android:text="Or sign in with"
         android:textSize="17dp"
         android:layout_above="@id/socialIcons"
-        android:textColor="@color/background_secondary"
+        android:textColor="@color/purpleDark"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
         />
 
     <LinearLayout
@@ -151,7 +161,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:id="@+id/socialIcons"
-        android:gravity="center">
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
 
         <ImageView
             android:layout_width="48dp"
@@ -161,7 +172,7 @@
             android:src="@drawable/google"
             />
 
-        <ImageView
+        <!--<ImageView
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_margin="20dp"
@@ -173,6 +184,6 @@
             android:layout_height="48dp"
             android:layout_margin="20dp"
             android:src="@drawable/twitter"
-            />
+            />-->
     </LinearLayout>
 </RelativeLayout>
